@@ -19,11 +19,15 @@ main {
 
 .main-content{
   width: 300px;
+  padding: 10px;
   background-color: #EEEEEE;
+  position: relative;
 }
 
 .step {
   position: absolute;
+  top:0;
+  left:0;
   background-color: #FF9A4B;
   color: #fff;
 }
@@ -34,31 +38,29 @@ main {
 
 .main-image1 {
   height: 150px;
-  margin: 10px 10px 10px 15px;
+  margin-bottom: 15px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
 .main-image2 {
   height: 150px;
-  margin: 10px 10px 10px 15px;
+  margin-bottom: 15px;
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
 }
 .main-image3 {
   height: 150px;
-  margin: 10px 10px 10px 15px;
+  margin-bottom: 15px;
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
 }
 
 .main-text {
-  margin: 0 10px 10px 10px;
 }
 .heading {
-  margin-top: 15px;
   margin-bottom: 5px;
 }
 
